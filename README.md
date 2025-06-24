@@ -36,18 +36,4 @@ Kullanıcıya yeni bir araba daha üretmek isteyip istemediği sorulur.
 
 Hayır (H) cevabında, liste yazdırılır ve program sonlanır.
 
-🧪 Örnek Kullanıcı Girişi
-Araba üretmek istiyor musunuz? (E/H): e
-Arabanın Seri Numarası: 123456
-Arabanın Markası: Toyota
-Arabanın Rengi: Kırmızı
-Arabanın Modeli: Corolla
-Arabanın Kapı Sayısı: dört ← ❌ Hata mesajı verir ve yeniden sorar.
-Arabanın Kapı Sayısı: 4
-Başka bir araba üretmek istiyor musunuz? (E/H): h
-Üretilen Arabalar:
-Seri No: 123456, Marka: Toyota
-📁 Dosya Yapısı
-Program.cs → Ana akış ve kullanıcı etkileşimi
 
-Araba.cs → Araba sınıf tanımı (property + constructor)
